@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: air_quality
+    database: end-to-end-de-pipeline
+    schema: air_quality
+    description: "Bronze layer containing raw hourly WAQI air quality data"
+
+    tables:
+      - name: waqi_hyd_bronze
+        description: "Raw hourly air quality data for Hyderabad ingested from WAQI API"
+
+models:
+  - name: air_quality_silver
+    description: "Cleaned hourly air quality data"
+    columns:
+      - name: event_hash
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_station
+    description: "SCD2 station dimension"
+    columns:
+      - name: station_sk
+        tests:
+          - not_null
+          - unique
