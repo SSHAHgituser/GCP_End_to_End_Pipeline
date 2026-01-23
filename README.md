@@ -1,4 +1,4 @@
-For detailed explanation, please refer the medium article: [https://medium.com/@ganeshnasrikrishna/building-a-real-end-to-end-data-pipeline-on-gcp-yes-from-scratch-04b5e78ecbf6](https://medium.com/@ganeshnasrikrishna/building-a-real-end-to-end-data-pipeline-on-gcp-yes-from-scratch-04b5e78ecbf6)
+For detailed explanation, please refer the medium article: [[https://medium.com/@ganeshnasrikrishna/building-a-real-end-to-end-data-pipeline-on-gcp-yes-from-scratch-04b5e78ecbf6](https://medium.com/@ganeshnasrikrishna/building-a-real-end-to-end-data-pipeline-on-gcp-yes-from-scratch-04b5e78ecbf6)](https://medium.com/@ganeshnasrikrishna/building-a-real-end-to-end-data-pipeline-on-gcp-yes-from-scratch-04b5e78ecbf6)
 
 ## 🌍 End-to-End Streaming Data Pipeline on GCP
 
